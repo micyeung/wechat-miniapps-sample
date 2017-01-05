@@ -1,0 +1,29 @@
+.amp-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+.amp-list-item {
+  margin: 15rpx;
+}
+
+/*.amp-list td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 30px;
+    text-shadow: 1px 1px 1px #fff;
+}*/
+/*
+table{
+  border: 2px dotted gray;
+  border-spacing: 10px 20px;
+}
+
+td {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 50px;
+  border-collapse: separate;
+  border: 1px solid black;
+}*/

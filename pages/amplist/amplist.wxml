@@ -1,0 +1,16 @@
+<!--amplist.xml-->
+<view class="container">
+  <table class="amp-list">
+    <block wx:for="{{articles}}" wx:for-item="article" wx:key="*this">
+      <block wx:if="{{index != 0}}">
+        <tr class="amp-list-item" bindtap="articleTap" data-articleurl="{{articles[index].url}}">
+          <td>{{index}}.  </td>
+          <td>{{articles[index].title}}   </td>
+        </tr>
+        <tr>
+          <button type="primary" size="mini" bindtap="previewImg" data-imageurl="{{articles[index].image_url}}">Preview</button>
+        </tr>
+      </block>
+    </block>
+  </table>
+</view>

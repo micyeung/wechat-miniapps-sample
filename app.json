@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/amplist/amplist",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4db6ac",
+    "navigationBarTitleText": "Dragon Well Times",
+    "navigationBarTextStyle":"white"
+  }
+}
